@@ -13,8 +13,8 @@ function init() {
 
 function loadData() {
     return Promise.all([
-        d3.csv("/chart_data/cooc32long_bw_nodelist.csv"),
-        d3.csv("/chart_data/cooc32long_bw_edgelist.csv")
+        d3.csv("cooc32long_bw_nodelist.csv"),
+        d3.csv("cooc32long_bw_edgelist.csv")
     ]);
 }
 
